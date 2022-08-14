@@ -1,0 +1,402 @@
+[
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 3, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 35, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 36, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 9, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 51, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 57, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 2, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 34, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 39, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 3, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 3, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "国际组织", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "国际组织", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "国际组织", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "国际组织", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "国际组织", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 8, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 12, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 17, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 6, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 8, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 26, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 2, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 15, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 57, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 52, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 7, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 55, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 345, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 47, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 559, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 123, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 469, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 2, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 3, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "采矿业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "采矿业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "副教授"
+    }, 
+    {
+        "HangYe": "采矿业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "采矿业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "采矿业", 
+        "ShuLiang": 2, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 4, 
+        "ZhiCheng": "教授"
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 0, 
+        "ZhiCheng": "助教"
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 7, 
+        "ZhiCheng": "讲师"
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 1, 
+        "ZhiCheng": "其他"
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 12, 
+        "ZhiCheng": "副教授"
+    }
+]

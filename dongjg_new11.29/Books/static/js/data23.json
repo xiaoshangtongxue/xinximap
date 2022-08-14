@@ -1,0 +1,257 @@
+[
+    {
+        "HangYe": "农业", 
+        "ShiJian": "2018", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "农业", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "农业", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "农业科技示范基地发展专项", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "农业科技示范基地发展专项", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "农业科技示范基地发展专项", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "工业", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "工业", 
+        "ShiJian": "2019", 
+        "ShuLiang": 2
+    }, 
+    {
+        "HangYe": "工业", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "新材料", 
+        "ShiJian": "2018", 
+        "ShuLiang": 2
+    }, 
+    {
+        "HangYe": "新材料", 
+        "ShiJian": "2019", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "新材料", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "旅游景区大数据应用", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "旅游景区大数据应用", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "旅游景区大数据应用", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "民生科技与社会发展专项", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "民生科技与社会发展专项", 
+        "ShiJian": "2019", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "民生科技与社会发展专项", 
+        "ShiJian": "2020", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "现代农业", 
+        "ShiJian": "2018", 
+        "ShuLiang": 2
+    }, 
+    {
+        "HangYe": "现代农业", 
+        "ShiJian": "2019", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "现代农业", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "生物医药", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "生物医药", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "生物医药", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "生物技术", 
+        "ShiJian": "2018", 
+        "ShuLiang": 2
+    }, 
+    {
+        "HangYe": "生物技术", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "生物技术", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "生物技术与医药与食品", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "生物技术与医药与食品", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "生物技术与医药与食品", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "电子信息", 
+        "ShiJian": "2018", 
+        "ShuLiang": 7
+    }, 
+    {
+        "HangYe": "电子信息", 
+        "ShiJian": "2019", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "电子信息", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "电子信息及物联网技术应用", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "电子信息及物联网技术应用", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "电子信息及物联网技术应用", 
+        "ShiJian": "2020", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "社会发展", 
+        "ShiJian": "2018", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "社会发展", 
+        "ShiJian": "2019", 
+        "ShuLiang": 2
+    }, 
+    {
+        "HangYe": "社会发展", 
+        "ShiJian": "2020", 
+        "ShuLiang": 8
+    }, 
+    {
+        "HangYe": "科技兴区", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "科技兴区", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "科技兴区", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "装备制造", 
+        "ShiJian": "2018", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "装备制造", 
+        "ShiJian": "2019", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "装备制造", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "高新技术企业发展专项", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "高新技术企业发展专项", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "高新技术企业发展专项", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "高新技术服务", 
+        "ShiJian": "2018", 
+        "ShuLiang": 0
+    }, 
+    {
+        "HangYe": "高新技术服务", 
+        "ShiJian": "2019", 
+        "ShuLiang": 1
+    }, 
+    {
+        "HangYe": "高新技术服务", 
+        "ShiJian": "2020", 
+        "ShuLiang": 0
+    }
+]

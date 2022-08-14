@@ -1,0 +1,62 @@
+/* ============================================================
+  NAVIGATION
+============================================================ */
+nav ul {
+  list-style-type: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+nav ul li a {
+  display: block;
+  padding: 5px 20px;
+  color: #fff;
+  background-color: #32c896;
+}
+nav ul li a:hover {
+  color: #fff;
+  background-color: #238b68;
+}
+nav ul li a.active {
+  color: #fff;
+  background-color: #238b68;
+}
+
+/* ============================================================
+  GLOBAL
+============================================================ */
+/* haeder */
+.container1{width: 1200px; margin: 0 auto; position: relative;}
+
+.header{
+    height: 85px;
+    position: absolute;
+
+    width: 100%;
+
+
+}
+
+/* nav */
+.nav{width: 91%; height: 80px; margin: auto; }
+.nav .logo{width: 165px; float: left;}
+.nav .logo img{width: 100%; margin-top: 15px;}
+.nav .menu{float: left; position: relative;}
+
+.nav .menu ul li{float: left; font-size: 18px; line-height: 80px; width: 145px;text-align: center;}
+.selectedNav{font-weight:bold;}
+.nav .menu ul li:hover{font-weight:bold;}
+.bottomLine{
+    position: absolute;
+    left: 0px;
+    bottom:0;
+    height:4px;
+    background-color: #333;
+    transition: all 0.3s ease;
+    height: 2px;
+    width: 145px;
+}

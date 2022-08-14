@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   
+    <style>
+        a {
+            color: #FFFF99;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+ 
+        .top-nav {
+            font-size: 16px;
+            font-weight: bold;
+            list-style: none;
+            overflow: auto;
+        }
+ 
+        .top-nav li {
+            float: left;
+        }
+ 
+        /* 二级菜单 */
+        .top-nav li ul {
+            display: none;
+            /* 去圆点 */
+            list-style: none;
+            padding: 0px;
+        }
+ 
+        .top-nav li a:hover {
+            background-color: red;
+        }
+ 
+        .top-nav li:hover ul {
+            display: block;
+            /* 为了竖向显示 定义一个宽度 */
+            width: 80px;
+        }
+ 
+        /* 三级菜单 */
+        .top-nav li:hover ul li ul {
+            display: none;
+ 
+        }
+ 
+        /* 鼠标移动到二级菜单时 三级菜单显示 */
+        .top-nav li ul li:hover ul {
+            display: block;
+            top: 0px;
+            left: 80px;
+        }
+ 
+        .top-nav li a {
+            line-height: 20px;
+            text-decoration: none;
+            background: #DDDDDD;
+            color: #666666;
+            display: block;
+            width: 80px;
+            text-align:center
+        }
+    </style>
+
+
+    <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=a6dfa9ee329e5f6f5dd8020c68eec042"></script>
+<script type="text/javascript" src="dist/bundle-05.js">
+   
+</script>
+</style>
+    <link rel="stylesheet" type="text/css" href="assets/style/green.css">
+ <!--script>
+    window.onload=function(){ 
+    var search=document.getElementById("search");
+    var myinput=document.getElementById("myinput");
+    search.onclick=function(){
+        const req= new XMLHttpRequest();
+        const url='http://127.0.0.1:8000/snippets/'+myinput.value;
+        req.onreadystatechange=function(){
+            if(this.readyState == 4 && this.status == 200)
+            {
+                console.log(this.responseText);
+            }
+        }
+
+    
+        req.open("GET",url,true);
+        req.send(null);
+    }   
+}
+</script-->
+</head>
+<body onload="load()" style="height: 100%; width: 100%; margin: 0; overflow: hidden;">
+
+
+    <div class="search">
+      <img src="lesson/text/company/demo/assets/img/home.svg" >
+        <h1 style="font-size:25px;margin-left:10px;"> 人才地图 </h1>
+        <div class="search_box">
+            <span class="searchicon"></span> <input type="search" id="myinput"
+                class="search_input" id="searchInput" placeholder="请输入你要搜索的公司名称">
+        <select name="classid" id="select"  class="sellect"  >
+			<option value="0" class="sellect1">高级</option>
+			<option value="name=" class="sellect1">姓名</option>
+			<option value="position="class="sellect1" >职称</option>
+			<option value="research=" class="sellect1">方向</option>
+            <option value="college=" class="sellect1">学院</option>
+            <option value="program=" class="sellect1">项目</option>
+            <option value="relative" class="sellect1">关系图</option>
+		 </select>  
+       
+        </div> 
+        <label class="search_label" id='search'  > 
+         <input class="blue"   type="button" value="搜索" >
+        </label>
+        <label class="search_label1" style="right:32rem" id='cansole'  > 
+         <input class="blue1"  type="button" value="清空图层" >
+        </label>
+        <a class="search_label1"style="right:27rem" id='cansole1' href="#"> 
+         <input class="blue2" type="button" value="刷新"  >
+        </a>
+        <label class="label4" > 
+            <input class="fuxuan" type="Checkbox" id='search3'>隐藏名称</input>
+        </label>
+        <div style="width:80px;position:absolute;top:80px;right:340px;z-index:30 ">            
+                  <label id="border-label" > 
+                   <b>边界</b>
+                   <input  type="Checkbox" class="border" id='border'> </input>
+                  </label>
+                  
+</div>
+          <a style="margin-top:12px;position:absolute;margin-left:1150px" href="lesson\text\Login\Door\map_message\teacher.html">
+            <img  src="lesson/text/company/demo/assets/img/marker.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1190px" href="lesson\text\Login\Door\map_message\company.html">
+            <img  src="lesson/text/company/demo/assets/img/marker1.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1230px" href="lesson\text\Login\Door\map_message\achievement.html">
+            <img  src="lesson/text/company/demo/assets/img/marker2.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1270px" href="lesson\text\Login\Door\map_message\snippets.html">
+            <img  src="lesson/text/company/demo/assets/img/marker3.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1310px" href="lesson\text\Login\Door\map_message\instrument.html">
+            <img  src="lesson/text/company/demo/assets/img/marker4.svg">
+         </a>
+</div>
+
+
+<!--div id="top"style="position:absolute; top: 10px; left: 10px; z-index: 55;">
+    <ul class="top-nav" class=menu>
+        <li><a  href="#">信息地图</a>
+            <ul class="second-menu" >
+                 <li><a href="#">企业地图</a>
+                        <ul class="third-menu">
+                            <li><a href="javascript:void(0)" id="manual_bind_click_way1">11</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                        </ul>  
+                 </li>
+              
+
+                  <li><a href="#">人才地图</a>
+                    <ul class="third-menu">
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>  
+               </li>
+
+                 <li><a href="#">成果地图</a>
+                    <ul class="third-menu">
+                       <li><a href="#">1</a></li>
+                       <li><a href="#">2</a></li>
+                       <li><a href="#">3</a></li>
+                    </ul>  
+                </li>
+                <li><a href="#">仪器地图</a>
+                    <ul class="third-menu">
+                       <li><a href="#">1</a></li>
+                       <li><a href="#">2</a></li>
+                       <li><a href="#">3</a></li>
+                    </ul>  
+                </li>
+                <li><a href="#">项目地图</a>
+                    <ul class="third-menu">
+                       <li><a href="#">1</a></li>
+                       <li><a href="#">2</a></li>
+                       <li><a href="#">3</a></li>
+                    </ul>  
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div-->
+
+
+
+<div id="top"style="position:absolute; top: 10px; left: 10px; z-index: 30;">
+    <ul class="top-nav" class=menu>
+                    <li><a class="yongyin" href="demo-company.html">企业地图</a>                   
+                 </li>
+              
+
+                  <li><a class="yongyin" href="#">人才地图</a> 
+                 </li>
+
+                 <li><a class="yongyin" href="demo-achievement.html">成果地图</a>
+                     
+                </li>
+                <li><a class="yongyin" href="demo-instrument.html">仪器地图</a>
+                    
+                </li>
+                <li><a class="yongyin" href="demo-projection.html">项目地图</a>      
+                </li>
+                <!--label class="search_label2" id='search1'> 
+                  <input class="round_button1"   type="button" value="热力图" >
+                </label-->
+                <label class="search_label2" id='search1'> 
+                  <input type="button" class="next"value="下一页">
+                </label>
+                <label class="search_label3" id='search2'> 
+                  <input type="button" class="return" value="上一页">
+                </label>
+                 <a class="search_label4" href="#"> 
+                  <input type="button" class="hot" value="热力图">
+                </a>
+    </ul>
+</div>
+
+   
+<div id="foo" style="width:100%; height:100%;position: absolute; z-index: 2;"></div>
+<div id="amap" style="width:100%; height:100%;position:absolute; z-index: 1; border: 1px solid #000; "></div>
+  
+                   
+              
+</body>
+</html>

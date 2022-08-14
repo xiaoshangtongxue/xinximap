@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=a6dfa9ee329e5f6f5dd8020c68eec042"></script>
+<script type="text/javascript" src="dist/bundle-04.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/style/green.css">
+</head>
+<body onload="load()" style=" height: 100%; width: 100%; margin: 0; overflow: hidden;">
+
+  <div class="search" >
+      <img src="assets/img/home.svg" >
+        <h1 style="font-size:25px;margin-left:10px;"> 项目地图 </h1>
+    <div class="search_box" >   
+            <span class="searchicon"></span> 
+            <input type="search" id="myinput"class="search_input" id="searchInput" placeholder="请输入你要搜索的公司名称"> 
+         <select name="classid" id="select"  class="sellect"  >
+            <option value="0" class='sellect1' >高级</option>
+            <option  value="name=" class='sellect1' >名称</option>
+            <option value="people=" class='sellect1'>人员</option>
+            <option value="position="class='sellect1' >职称</option>
+            <option value="unit=" class='sellect1'>单位</option>
+            <option value="technology="class='sellect1' >材料</option>
+            <option value="corcomp=" class='sellect1'>公司</option>
+            <option value="recommend" class='sellect1'>推荐</option>
+		 </select> 
+    </div>
+     <label class="search_label" id='search'  > 
+         <input class="blue"   type="button" value="搜索" >
+     </label>
+
+    <div>
+       <input class="blue1" id="cansole" type="button" value="清空图层" >
+      <a id='cansole1' href="../demo-projection/"> 
+         <input class="blue2" type="button" value="刷新"  >
+       </a>
+       <a  id='cansole2' href="../entrance/"> 
+         <input class="blue3" type="button" value="关闭地图"  >
+       </a>
+    </div>
+  
+  </div>
+
+  <div style="position:absolute; top:15px; right:15px">
+    <a  href="lesson\text\Login\Door\map_message\teacher.html">
+            <img  src="assets/img/marker.svg">
+         </a>
+          <a   href="lesson\text\Login\Door\map_message\company.html">
+            <img  src="assets/img/marker1.svg">
+         </a>
+          <a   href="lesson\text\Login\Door\map_message\achievement.html">
+            <img  src="assets/img/marker2.svg">
+         </a>
+          <a  href="lesson\text\Login\Door\map_message\snippets.html">
+            <img  src="assets/img/marker3.svg">
+         </a>
+      <a  href="lesson\text\Login\Door\map_message\instrument.html">
+            <img   src="assets/img/marker4.svg">
+      </a>
+    </div> 
+  
+   
+
+
+<div id="top"style="position:absolute; top: 10px; left: 10px; z-index: 30;">
+<ul class="block-menu lazy ">
+			<li><a href="/" class="three-d lazy ">
+					Home
+					<span aria-hidden="true" class="three-d-box lazy ">
+						<span class="front lazy ">Home</span>
+						<span class="back lazy ">Home</span>
+					</span>
+				</a>
+			</li>
+			<li><a href="/demos" class="three-d lazy ">
+					Demos
+					<span aria-hidden="true" class="three-d-box lazy ">
+						<span class="front lazy ">Demos</span>
+						<span class="back lazy ">Demos</span>
+					</span>
+				</a></li>
+				<li><a href="/demos" class="three-d lazy ">
+						Demos
+						<span aria-hidden="true" class="three-d-box lazy ">
+							<span class="front lazy ">Demos</span>
+							<span class="back lazy ">Demos</span>
+						</span>
+					</a></li>
+					<li><a href="/demos" class="three-d lazy ">
+							Demos
+							<span aria-hidden="true" class="three-d-box lazy ">
+								<span class="front lazy ">Demos</span>
+								<span class="back lazy ">Demos</span>
+							</span>
+						</a></li>
+			<!-- more items here -->
+		</ul>
+    <!--ul class="top-nav" >
+                  <li><a class="yongyin" href="demo-company.html">企业地图</a>                   
+                 </li>
+              
+
+                  <li><a class="yongyin" href="demo-talent.html">人才地图</a> 
+                 </li>
+
+                 <li><a class="yongyin" href="demo-achievement.html">成果地图</a>
+                     
+                </li>
+                <li><a class="yongyin" href="demo-instrument.html">仪器地图</a>
+                    
+                </li>
+                <li><a class="yongyin" href="#">项目地图</a>  
+                </li>         
+    </ul-->            
+</div>
+
+<div style="position:absolute;top:140px;right:10px;z-index:30 "> 
+                <label   id='search1'> 
+                     <input type="button" class="next" value="下一页">
+                </label>
+</div> 
+<div style="position:absolute;top:140px;right:80px;z-index:30 ">
+             <label  id='search2'> 
+                  <input type="button" class="return" value="上一页">
+            </label>
+</div>
+<div style="position:absolute;top:80px;right:10px;z-index:30 ">
+              
+                <label id="border-label" > 
+                   <b>名称</b>
+                   <input class="border" type="Checkbox" id='search3'> </input>
+                  </label>
+</div>
+<div style="position:absolute;top:80px;right:150px;z-index:30 ">
+              
+                <label id="border-label1" > 
+                   <b>飞行图</b>
+                   <input class="border1" type="Checkbox" id='search4'> </input>
+                  </label>
+
+</div>
+
+
+<div style="width:80px;position:absolute;top:80px;right:340px;z-index:30 ">            
+                  <label id="border-label" > 
+                   <b>边界</b>
+                   <input  type="Checkbox" class="border" id='border'> </input>
+                  </label>
+                  
+</div>
+
+
+
+
+ <div id="sidebar" id="top1" style="top:120px;left:50px;position:absolute; z-index: 30;">
+    <ul  id="top2" style="  border-radius:8px 8px 0px 0px ;width:280px; border:1px solid;border-color:  rgb(199, 199, 199);"  >
+        <li class="current" style="margin-left:10px;border-radius:6px 6px 0px 0px ;border:1px solid rgb(199, 199, 199) ;height:30px; margin-top:10px;line-height:25px " >名称</li>
+        <li class="current" style="margin-left:50px;border-radius:6px 6px 0px 0px ;border:1px solid rgb(199, 199, 199) ;height:30px; margin-top:10px;line-height:25px " >职称</li>
+        <li class="current" style="border-radius:6px 6px 0px 0px ;border-color:rgb(209, 208, 209);border:1px solid rgb(199, 199, 199);height:30px; margin-top:10px;line-height:25px" >飞行图</li>
+       
+    </ul>
+    <ul id="bottom" style="width:280px;height:360px;border:1px solid;border-color:  rgb(199, 199, 199);border-top:none; background-color: rgb(255, 255, 255); " >
+        <li id="box_name">
+        
+        </li>
+         <li id="box_name1">
+            
+           <p style=""id="0">
+            <img src="assets/img/定位.svg">
+           教授</p>
+          <p id="1">
+           <img src="assets/img/定位.svg">
+          副教授</p>
+          <p id="2">
+           <img src="assets/img/定位.svg">
+          讲师</p>
+         
+        </li>
+        <!--li class="current" style="margin-top:30px;margin-left:10px"  >
+        <img src="assets/img/新材料.png">
+        教授<input  type="radio"  name='one'  id='search5' ><br><br>
+        <img src="assets/img/新材料.png">
+        副教授<input  type="radio"  name='one'  id='search6' ><br><br>
+        <img src="assets/img/新材料.png">
+        讲师<input  type="radio"  name='one'  id='search7' >
+        </li-->
+   
+        
+     
+         <li id="box_name2">   
+     
+          <label class="label5" style=" font-weight:normal;width:200px;top:20px;left:50px;font-size:20px;color:gray;" > 
+                <img  src={%static '../static/images/飞行图.png'%}>
+                项目年份2018
+                <input  type="radio" name="year" id='fly1'/>
+          </label><br><br><br>
+     
+          <label class="label5" style="font-weight:normal;width:200px;top:70px;left:50px;font-size:20px;color:gray;" > 
+                   <img  src={%static '../static/images/飞行图.png'%}>
+                 项目年份2019<input type="radio" name="year" id='fly'/>
+          </label> <br><br><br>
+        
+          <label class="label5" style="font-weight:normal;width:200px;top:120px;left:50px;font-size:20px;color:gray;" > 
+                  <img  src={%static '../static/images/飞行图.png'%}>
+                 项目年份2020<input type="radio" name="year" id='fly2'/>
+          </label> 
+    </li>
+
+  
+</ul>
+
+</div>
+
+
+
+
+<div id="foo" style="width:100%; height:100%;position: absolute; z-index: 2;"></div>
+<div id="amap" style="width:100%; height:100%;position:absolute; z-index: 1;  "></div>
+  
+                   
+              
+</body>
+</html>

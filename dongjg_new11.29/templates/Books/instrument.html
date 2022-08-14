@@ -1,0 +1,158 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>小店仪器地图</title>
+
+    <link rel="stylesheet" href="{%static '../static/css/instrument.css'%}" />
+
+    <link rel="dns-prefetch" href="https://wprd01.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://wprd02.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://wprd03.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://wprd04.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://webst01.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://webst02.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://webst03.is.autonavi.com">
+    <link rel="dns-prefetch" href="https://webst04.is.autonavi.com">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>小店仪器信息展示图</h1>
+        <!-- 准备一个按钮 -->
+        <button onclick="handleFullScreen()">全屏</button>
+        <div class="show-time"></div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000); //开始运行
+            function time() {
+                clearTimeout(t); //清除定时器
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours(); //获取时
+                var m = dt.getMinutes(); //获取分
+                var s = dt.getSeconds(); //获取秒
+                document.querySelector(".show-time").innerHTML =
+                    "当前时间：" +
+                    y +
+                    "年" +
+                    mt +
+                    "月" +
+                    day +
+                    "日-" +
+                    h +
+                    "时" +
+                    m +
+                    "分" +
+                    s +
+                    "秒";
+                t = setTimeout(time, 1000); //设定定时器，循环运行
+            }
+        </script>
+        <!-- 头部 no模块 -->
+        <div class="no">
+            <div class="no-hd">
+                <ul>
+                    <li>33台</li>
+                </ul>
+            </div>
+            <div class="no-bd">
+                <ul>
+                    <li>仪器总数</li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 页面主体 -->
+    <section class="mainbox">
+        <!-- 左侧盒子 -->
+        <div class="column">
+            <div class="panel bar">
+                <h2>柱状图-</h2>
+                <!-- 图表放置盒子 -->
+                <div class="chart"></div>
+                <!-- 伪元素绘制盒子下边角 -->
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel line">
+                <h2>折线图-</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel bar3">
+                <h2>柱状图-</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+        <!-- 右侧盒子 -->
+        <div class="column">
+            <div class="panel pie">
+                <h2>饼形图-行业分布</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel bar2">
+                <h2>柱状图-</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel pie2">
+                <h2>饼形图-</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="{%static '../static/js/flexible.js'%}"></script>
+    <script src="{%static '../static/js/echarts.min.js'%}"></script>
+    <script src="{%static '../static/js/jquery.js'%}"></script>
+    <script src="{%static '../static/js/instrument.js'%}"></script>
+</body>
+<script>
+    //定义一个变量进行判断，默认false 非全屏状态
+    let exitFullscreen = false
+        // 全屏事件
+    function handleFullScreen() {
+        let element = document.documentElement;
+        if (this.fullscreen) {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+        } else {
+            if (element.requestFullscreen) {
+                element.requestFullscreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.msRequestFullscreen) {
+                // IE11
+                element.msRequestFullscreen();
+            }
+        }
+    }
+</script>
+
+</html>

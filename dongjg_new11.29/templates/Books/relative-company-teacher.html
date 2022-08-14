@@ -1,0 +1,382 @@
+<!DOCTYPE html> {% load static %}
+<html>
+
+<head>
+    <title>人才关系图</title>
+    <script src="{%static '../static/js/jquery.js'%}"></script>
+    <script src="{%static '../static/js/echarts.min.js'%}"></script>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    </style>
+</head>
+    
+<body>
+    <!--input type="name" id="myinput">
+    <button onclick="return check_search()">搜索</button-->
+     
+    <div id="main" target="_black" style="width:100%;height:800px;text-align:center;"></div>
+
+</body>
+<script type="text/javascript">
+
+        function oneValue() {
+            var result;
+            var url = decodeURI(window.location.search); //获取url中"?"符后的字串  
+            if (url.indexOf("?") != -1) {
+                result = url.substr(url.indexOf("=") + 1);
+            }
+            return result;
+        };
+       
+    check_search();
+    var myInput = []
+    function check_search() {
+    
+            if (!window.localStorage) {
+                alert("浏览器不支持localStorage");
+            } else {
+             
+              
+       
+                // 读取搜索
+                myInput = oneValue();
+
+
+                var relativeData = (function() {
+                    var relativeData = []
+                    $.ajax({
+                        type: "get",
+                        async: false, //同步执行
+                        url: 'http://119.29.130.157:8000/auth/comtearelation/' + myInput,
+                        dataType: "json", //返回数据形式为json
+                        success: function(result) {
+                            console.log(myInput);
+                            //后台返回的数据格式如下：
+                            relativeData = result
+                            console.log(relativeData)
+
+                        },
+                        error: function(errorMsg) {
+                            alert("加载失败！");
+                        }
+                    });
+                    return relativeData;
+                })()
+
+                //一级--二级
+                var readnodeData = []
+                var associatedData = []
+                var readassociatedData = []
+                var nodeData1 = {
+                    name: myInput,
+                    des: myInput,
+                    symbolSize: 80,
+                    category: 0,
+                   
+                  
+                    
+                }
+                readnodeData.push(nodeData1)
+            
+
+                for (var i = 0; i < relativeData.length; i++) {
+                        
+                    if (relativeData[i].company_name == myInput) {
+          
+                        if(parseInt(relativeData[i].value)==0){
+
+                        var nodeData2 = {
+                            name: relativeData[i].teacher_name,
+                            des: relativeData[i].teacher_name,
+                            symbolSize: 80,
+                            
+                              category: 1,
+                              
+                          
+                        }
+                        readnodeData.push(nodeData2)
+                        var associatedData = {
+                            source: relativeData[i].company_name,
+                            target: relativeData[i].teacher_name,
+                           // name: '关系强度值' + relativeData[i].value1,
+                           // des: '关系强度值' + relativeData[i].value1
+                            name: '一级关系' ,
+                            des: '一级关系'
+                        }
+                  
+                        readassociatedData.push(associatedData)
+               
+                    }
+
+
+
+                    //5
+                     else if(parseInt(relativeData[i].value) == 1 ){
+
+                      
+
+                        var nodeData2 = {
+                            name: relativeData[i].company_name,
+                            des: relativeData[i].teacher_name,
+                            symbolSize: 80,
+                            
+                              category: 2,
+                         
+                     
+                          
+                        }
+                        readnodeData.push(nodeData2)
+                        var associatedData = {
+                            source: relativeData[i].company_name,
+                            target: relativeData[i].teacher_name,
+                            //name: '关系强度值' + relativeData[i].value1,
+                            //des: '关系强度值' + relativeData[i].value1
+                            name: '二级关系' ,
+                            des: '二级关系',
+                         
+                            
+                        }
+                        readassociatedData.push(associatedData)
+                        
+                    }
+                    
+                
+              
+                    }
+
+
+                }
+
+
+                //去重
+                for (i = 0; i < readnodeData.length; i++) {
+                    for (j = i + 1; j < readnodeData.length; j++) {
+                        if (readnodeData[i].name == readnodeData[j].name) {
+                            readnodeData.splice(j, 1);
+                            readassociatedData.splice(j - 1, 1);
+                            readnodeData.length--;
+                            j--;
+                        }
+                    }
+                }
+          
+
+                console.log(readnodeData)
+                console.log(readassociatedData)
+
+                var myChart = echarts.init(document.getElementById('main'));
+                var categories = [{
+                    name: '搜索地区'
+                }, {
+                    name: '一级关系'
+                }, {
+                    name: '二级关系'
+                }
+                ]
+         
+
+                //
+               let option = {
+                    // 图的标题
+                    title: {
+                        text: oneValue()+'关系图'
+                        
+                    },
+                    // 提示框的配置
+                    tooltip: {
+                        show:true,
+                        //triggerOn:"onclick",
+                        //triggerOn:"onmouseout"
+                        extraCssText:"width:300px;text-align:left;display:block;white-space: normal; word-break: break-all;",
+                        
+                        formatter: function(x) {
+                                if(x.data.name.length > 3){
+                                    $.ajax({
+                                            type: "get",
+                                            async: false, //同步执行
+                                            url: "http://119.29.130.157:8000/ComMultisearch/?company_name="+x.data.name,
+                                            dataType: "json", //返回数据形式为json
+                                            success: function(result) {
+                                                //后台返回的数据格式如下：
+                                                relativeData = result
+                                
+                                            
+                                              
+                                            },
+                                            error: function(errorMsg) {
+                                                alert("加载失败！");
+                                            }
+                                        });
+                        
+                                        return "公司名称:"+relativeData.features["0"].company_name+'<br>'+
+                                                "公司法人:"+relativeData.features["0"].company_auth+'<br>'+
+                                                "所属行业:"+relativeData.features["0"].company_prisector+'<br>'+
+                                                "成立时间:"+relativeData.features["0"].company_time+'<br>'+
+                                                "成立时间:"+relativeData.features["0"].company_address+'<br>'+
+                                                "公司简介:"+relativeData.features["0"].company_introduction;
+                                } else{
+                                    $.ajax({
+                                            type: "get",
+                                            async: false, //同步执行
+                                            url: "http://119.29.130.157:8000/TeaMultisearch/?teacher_name="+x.data.name,
+                                            dataType: "json", //返回数据形式为json
+                                            success: function(result) {
+                                                //后台返回的数据格式如下：
+                                                relativeData = result
+                                
+                                            
+                                              
+                                            },
+                                            error: function(errorMsg) {
+                                                alert("加载失败！");
+                                            }
+                                        });
+                                    
+                                        return "教师名字:"+relativeData.features["0"].teacher_name+'<br>'+
+                                                "教师职称:"+relativeData.features["0"].teacher_position+'<br>'+
+                                                "所属学院:"+relativeData.features["0"].teacher_college+'<br>'+
+                                                "研究方向:"+relativeData.features["0"].teacher_research+
+                                                "所属一级行业:"+relativeData.features["0"].teacher_prisectorsector+
+                                                "十四大产业:"+relativeData.features["0"].teacher_fourthsector+
+                                                "备注:"+relativeData.features["0"].teacher_remark+
+                                                "科研项目:"+relativeData.features["0"].teacher_program+'<br>'
+                                   
+                                }  
+                                
+                        }
+                       
+                    },
+                    // 工具箱
+                    toolbox: {
+                        // 显示工具箱
+                        show: true,
+                        feature: {
+                            mark: {
+                                show: true
+                            },
+                            // // 还原
+                            // restore: {
+                            //     show: true
+                            // },
+                            // // 保存为图片
+                            // saveAsImage: {
+                            //     show: true
+                            // }
+                        }
+                    },
+                    legend: [{
+                        // selectedMode: 'single',
+                        data: categories.map(function(a) {
+                            return a.name;
+                        })
+                    }],
+                        
+                    series: [{
+                        type: 'graph',
+                        //type: 'line', // 类型:关系图
+                       layout: 'force', //图的布局，类型为力导图
+                       symbolSize: 40, // 调整节点的大小
+                        roam: true, // 是否开启鼠标缩放和平移漫游。默认不开启。如果只想要开启缩放或者平移,可以设置成 'scale' 或者 'move'。设置成 true 为都开启
+                        edgeSymbol: ['circle', 'arrow'],
+                        edgeSymbolSize: [2, 10],
+                        //draggable : true,
+                     
+                        edgeLabel: {
+                            normal: {
+                                textStyle: {
+                                    fontSize: 20
+                                }
+                            }
+                        },
+                       
+                       force: {
+                           //initLayout:true,
+                            repulsion: 800,
+                         
+                            edgeLength :200,
+
+                         
+                           
+                            gravity: 0.1, //引力
+             
+                           
+                            layoutAnimation : true,
+                        },
+                   
+                       draggable: false,
+
+                        lineStyle: {
+                          
+
+                            
+                            normal: {
+                                width: 2,
+                                //color: '#4b565b',
+                           
+                                color: '#4b565b',
+                             
+                            }
+                            
+                        },
+                        edgeLabel: {
+                            normal: {
+                                show: true,
+                                formatter: function(x) {
+                                    return x.data.name;
+                                },
+                                fontSize:18,
+                               
+                            }
+                        },
+                        label: {
+                            normal: {
+                                show: true,
+                                textStyle: {
+                                  
+                                }
+                            }
+                        },
+                       
+                        // 数据
+                        data: readnodeData,
+                        links: readassociatedData,
+                        categories: categories,
+                    }]
+                    
+                };
+                
+                myChart.setOption(option);
+                
+                };
+
+
+
+
+         
+       
+
+            return true;
+            
+            
+             function  edgeLength_function(relativeData){
+               for (i = 0; i < readnodeData.length; i++) {
+                   if(relativeData[i].value1 == "5"){
+                       return 5.0;
+                     
+                   }
+                   else if(relativeData[i].value1 == "10"){
+                       return 100;
+                   }
+               }
+           }
+        
+      
+            
+       
+    }
+</script>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>小店科技信息数据查询入口</title>
+    <!-- {% comment %}
+    <link rel="stylesheet" href="..\..\templates\lesson\text\Login\Door\css\123.css" /> {% endcomment %} -->
+    <link rel="stylesheet" href="{%static '../static/css/entrance.css'%}" />
+</head>
+
+<body>
+    <!-- 头部 -->
+    
+    <header>
+    
+        <h1 >小店科技信息数据查询入口</h1>
+        <div class="show-time"></div>
+ 
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000); //开始运行
+            function time() {
+                clearTimeout(t); //清除定时器
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours(); //获取时
+                var m = dt.getMinutes(); //获取分
+                var s = dt.getSeconds(); //获取秒
+                document.querySelector(".show-time").innerHTML =
+                    "当前时间：" +
+                    y +
+                    "年" +
+                    mt +
+                    "月" +
+                    day +
+                    "日-" +
+                    h +
+                    "时" +
+                    m +
+                    "分" +
+                    s +
+                    "秒";
+                t = setTimeout(time, 1000); //设定定时器，循环运行
+            }
+        </script>
+    </header>
+
+    <section class="mainbox">
+        <div class="column">
+            <div class="panel cang1">
+
+                <h2>
+                    <a   href="{%static '../mcompany/'%}" title="点击查看企业信息">企业仓</a>
+                </h2>
+                <!--img src="..\..\Books\templates\lesson\text\Login\Door\images\qiye.jpg" style="width: 100%; height: 95%;" /-->
+                <a title="点击查看企业信息" href="{%static '../mcompany/'%}">
+                  <img src="{% static '../static/images/enterprise.jpg' %}" style="width: 100%; height: 95%;margin-top:3px;">
+                </a>
+                {% comment %} <img src="{% static '../static/images/qiye.jpg'%}"> {% endcomment %}
+                <div class="panel-footer"></div>
+            </div>
+            <!--div class="panel ditu1">
+                <h2>
+                    <a href="{%static '../demo-company/'%}">企业地图</a>
+                </h2>
+                <img src="{%static '../static/images/enterprisemap.jpg'%}" style="width: 100%; height: 95%;" />
+                <div class="panel-footer"></div>
+            </div-->
+          <div>
+             <span style="color:white">企业仓:用于统计企业信息的分布图。其中包括企业所属行业分布图、高企时间序列折线图、高企技术分布图、
+            十四大行业分布图、地理分析图等等。</span>
+         </div>
+        </div>
+
+        <div class="column">
+            <div class="panel cang2">
+                <h2>
+                    <a href="{%static '../mteacher/'%}" title="点击查看人才信息">人才仓</a>
+                </h2>
+                <a  title="点击查看人才信息" href="{%static '../mteacher/'%}">
+                <img src="{%static '../static/images/talent.jpg'%}" style="width: 100%; height: 95%;margin-top:3px;" />
+                
+                </a>
+                <div class="panel-footer"></div>
+            </div>
+            <!--div class="panel ditu2">
+                <h2>
+                    <a href="{%static '../demo-talent/'%}">人才地图</a>
+                </h2>
+                <img src="{%static '../static/images/talentmap.jpg'%}" style="width: 100%; height: 95%;" />
+                <div class="panel-footer"></div>
+            </div-->
+                   <div>
+             <span style="color:white">人才仓:用于统计人才信息的分布图。其中包括人才所属院系分布图、专业结构分布图、从事专业分布图、教师职称饼状图、行业分析饼状图等等。</span>
+         </div>
+        </div>
+        <div class="column">
+            <div class="panel cang3">
+                <h2>
+                    <a href="{%static '../machievement/'%}" title="点击查看成果信息">成果仓</a>
+                </h2>
+                <a title="点击查看成果信息" href="{%static '../machievement/'%}">
+                <img src="{%static '../static/images/achievement.jpg'%}" style="width: 100%; height: 95%;margin-top:3px;" />
+                
+                </a>
+                <div class="panel-footer"></div>
+            </div>
+            <!--div class="panel ditu3">
+                <h2>
+                    <a href="{%static '../demo-achievement/'%}">成果地图</a>
+                </h2>
+                <img src="{%static '../static/images/achievementmap.jpg'%}" style="width: 100%; height: 95%;" />
+                <div class="panel-footer"></div>
+            </div-->
+                <div>
+             <span style="color:white">成果仓:用于统计成果信息的分布图。其中包括时间序列变化分布图、院系成果分布图、研发
+             状态饼状图、行业分布饼状图等等。</span>
+         </div>
+        </div>
+        <div class="column">
+            <div class="panel cang4">
+                <h2>
+                    <a href="{%static '../minstrument/'%}" title="点击查看仪器信息">仪器仓</a>
+                </h2>
+                  <a title="点击查看仪器信息" href="{%static '../minstrument/'%}">
+                <img src="{%static '../static/images/instrument.jpg'%}" style="width: 100%; height: 95%;margin-top:3px;" />
+                  
+                  </a>
+                <div class="panel-footer"></div>
+            </div>
+            
+       
+            <!--div class="panel ditu4">
+                <h2>
+                    <a href="{%static '../demo-instrument/'%}">仪器地图</a>
+                </h2>
+                <img src="{%static '../static/images/instrumentmap.jpg'%}" style="width: 100%; height: 95%;" />
+                <div class="panel-footer"></div>
+            </div-->
+             <div>
+             <span style="color:white">仪器仓:用于统计仪器信息的分布图。其中包括行业分布的饼状图等等。</span>
+         </div>
+        </div>
+        <div class="column">
+            <div class="panel cang5">
+                <h2>
+                    <a href="{%static '../mprograme/'%}" title="点击查看项目信息">项目仓</a>
+                </h2>
+                <a title="点击查看项目信息" href="{%static '../mprograme/'%}">
+                <img src="{%static '../static/images/project.jpg'%}" style="width: 100%; height: 95%;margin-top:3px;" />
+                </a>
+                <div class="panel-footer"></div>
+            </div>
+            <!--div class="panel ditu5">
+                <h2>
+                    <a href="{%static '../demo-projection/'%}">项目地图</a>
+                </h2>
+                <img src="{%static '../static/images/projectmap.jpg'%}" style="width: 100%; height: 95%;" />
+                <div class="panel-footer"></div>
+            </div-->
+            <div>
+             <span style="color:white">项目仓:用于统计项目信息的行业分布图。其中分别包括2018、2019、2020的柱状图,以及行业分布的饼状图等等。</span>
+        </div>
+        </div>
+
+    
+    </section>
+
+    <script src="{%static '../static/js/flexible.js'%}"></script>
+    <script src="{%static '../static/js/echarts.min.js'%}"></script>
+    <script src="{%static '../static/js/jquery.js'%}"></script>
+
+
+</body>
+
+
+</html>

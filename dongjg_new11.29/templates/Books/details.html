@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/html">
+<head>
+    <meta charset="UTF-8">
+    <title>people_info</title>
+</head>
+<body>
+<h1>{{ book.name }}:</h1>
+
+    {% for i in people %}
+        <li>人物名称：{{ i.name }}</li>
+        年龄：{{ i.age }}
+    {% empty %}
+        <li>无相关信息</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

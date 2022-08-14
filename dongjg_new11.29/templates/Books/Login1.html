@@ -1,0 +1,199 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录界面</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="{%static '../static/css/style.css'%}">
+</head>
+
+<body>
+    <div class="container right-panel-active">
+        <!-- 注册 -->
+        <div class="container_form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form_title">注册</h2>
+                <input type="text" id="Sign_user" name="Sign_user" placeholder="User" class="input" />
+                <input type="email" id="Sign_email" name="Sign_email" placeholder="Email" class="input" />
+                <input type="password" id="Sign_password" name="Sign_password" placeholder="Password" class="input" />
+                <button class="btn" id="Sign_on" onclick="return check_signOn()">注册</button>
+            </form>
+        </div>
+
+        <!-- 登录 -->
+        <div class="container_form container--signin">
+            <form action="{%static '../entrance.html'%}" class="form" id="form2">
+                <h2 class="form_title">登录</h2>
+                <input type="email" id="email" name="email" placeholder="Email" class="input" />
+                <input type="password" id="password" name="password" placeholder="Password" class="input" />
+                <a href="#" class="link" id="forget_pwd">Forgot your password?</a>
+                <button class="btn" onclick="return check_signIn()">登录</button>
+            </form>
+        </div>
+
+        <!-- 浮层 -->
+        <div class="container_overlay">
+            <div class="overlay">
+                <div class="overlay_panel overlay--left">
+                    <button class="btn" id="signIn">登录</button>
+                </div>
+                <div class="overlay_panel overlay--right">
+                    <button class="btn" id="signUp">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 背景 -->
+    <div class="slidershow">
+        <div class="slidershow--image" style="background-image: url('https://source.unsplash.com/Snqdjm71Y5s')"></div>
+        <div class="slidershow--image" style="background-image: url('https://source.unsplash.com/5APj-fzKE-k')"></div>
+        <div class="slidershow--image" style="background-image: url('https://source.unsplash.com/wnbBH_CGOYQ')"></div>
+        <div class="slidershow--image" style="background-image: url('https://source.unsplash.com/OkTfw7fXLPk')"></div>
+    </div>
+
+    <!-- partial -->
+    <script src="{%static '../static/js/script.js'%}"></script>
+
+</body>
+
+<script type="text/javascript">
+    function getValue(id) {
+        return document.getElementById(id).value;
+    }
+    // var a = getValue('Sign_user')
+    // console.log('a' + a);
+
+    //检测注册
+    var Sign_user
+    var Sign_email
+    var Sign_password
+    var Sign_information
+
+    function check_signOn() {
+        if (getValue('Sign_user') != '' && getValue('Sign_email') != '' && getValue('Sign_password') != '' && check(getValue('Sign_email'))) {
+            if (!window.localStorage) {
+                alert("浏览器不支持localStorage");
+            } else {
+                var storage = window.localStorage;
+                // 写入a字段
+                storage.setItem("Sign_user", getValue('Sign_user'));
+                // 写入b字段
+                storage.setItem("Sign_email", getValue('Sign_email'));
+                // 写入c字段
+                storage.setItem("Sign_password", getValue('Sign_password'));
+                console.log(typeof storage["Sign_user"]);
+                console.log(typeof storage["Sign_email"]);
+                console.log(typeof storage["Sign_password"]);
+                console.log(storage);
+                // 第一种读取方法
+                Sign_user = storage.Sign_user;
+                console.log(Sign_user);
+                // 第二种读取方法
+                Sign_email = storage["Sign_email"];
+                console.log(Sign_email);
+                // 第三种读取方法
+                Sign_password = storage.getItem("Sign_password"); //官方推荐使用
+                console.log(Sign_password);
+                Sign_information = [{
+                    Sign_user,
+                    Sign_email,
+                    Sign_password
+                }]
+                console.log(Sign_information);
+
+                var str = JSON.stringify(Sign_information);
+
+                //存入 
+                sessionStorage.obj = str;
+                //读取 
+                str = sessionStorage.obj;
+                console.log(str);
+                //重新转换为对象 
+                obj = JSON.parse(str);
+                console.log(obj);
+                // //调用方法
+                // download("save.json", '{"Sign_user":"' + Sign_user + '"' + ',"Sign_email":"' + Sign_email + '"' + ',"Sign_password":"' + Sign_password + '"}');
+            }
+            alert('注册成功！')
+            return true;
+        } else {
+            alert("用户名或密码不能为空!")
+            return false;
+        }
+    }
+
+    //检测登录
+    function check_signIn() {
+        if (getValue('email') == "xiaodian@sxu.edu.cn" && getValue('password') == "123") {
+            return true;
+        } else {
+            alert("用户名或密码错误!")
+            return false;
+        }
+    }
+
+
+    //下载数据
+    function fake_click(obj) {
+        var ev = document.createEvent("MouseEvents");
+        ev.initMouseEvent(
+            "click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null
+        );
+        obj.dispatchEvent(ev);
+    }
+
+    function download(name, data) {
+        var urlObject = window.URL || window.webkitURL || window;
+
+        var downloadData = new Blob([data]);
+
+        var save_link = document.createElementNS("http://www.w3.org/1999/xhtml", "a")
+        save_link.href = urlObject.createObjectURL(downloadData);
+        save_link.download = name;
+        fake_click(save_link);
+    }
+
+    //检测邮箱是否合法
+    function check(email_address) {
+        var regex = /^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
+        if (regex.test(email_address)) {
+
+            // var user_name = email_address.replace(regex, "$1");
+            // var domain_name = email_address.replace(regex, "$2");
+            // var alert_string = "注册成功\n\n";
+            // alert_string += "用户名：" + user_name + "\n";
+            // alert_string += "域名：" + domain_name;
+            // window.alert(alert_string);
+            return true;
+        } else {
+            window.alert("您输入的电子邮件地址不合法");
+            return false;
+        }
+    }
+
+
+    var xmlHttp
+
+    //判断浏览器是否支持ActiveX控件
+
+    if (window.ActiveXObject) {
+
+        //支持-通过ActiveXObject的一个新实例来创建XMLHttpRequest对象
+
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+    }
+
+    //不支持
+    else if (window.XMLHttpRequest) {
+
+        xmlHttp = new XMLHttpRequest()
+
+    }
+</script>
+
+
+
+</html>

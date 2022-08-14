@@ -1,0 +1,566 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": 1,
+      "name": "荧光酶联免疫斑点分析仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院403室",
+      "point": [
+        112.59328,
+        37.805966
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "可见光读板 100元/板 、荧光读板200元/板",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "孟老师",
+      "instrument_phone": "18636101580",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 2,
+      "name": "核转染系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院304室",
+      "point": [
+        112.593281,
+        37.805965
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "电穿孔免费",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "李平",
+      "instrument_phone": "15525061860",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 3,
+      "name": "细胞能量代谢分析系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院209室",
+      "point": [
+        112.594431,
+        37.811011
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "细胞代谢检测300元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "张老师",
+      "instrument_phone": "15935112189",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 4,
+      "name": "高分辨率活细胞成像系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院210室",
+      "point": [
+        112.594215,
+        37.809643
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "荧光图像拍摄150元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "张老师",
+      "instrument_phone": "15935112189",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 5,
+      "name": "圆二色光谱仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院102室",
+      "point": [
+        112.59328,
+        37.805966
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "第一小时160元、之后每小时120元",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "丁老师",
+      "instrument_phone": "18135105659",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 6,
+      "name": "微量超高速离心机",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院408室",
+      "point": [
+        112.59328,
+        37.805967
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "150元/小时（1小时之内）、100元/小时（超过1小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "董老师",
+      "instrument_phone": "13603584627",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 7,
+      "name": "超速离心机",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院102室",
+      "point": [
+        112.593279,
+        37.805968
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200元/小时（1小时之内）、100元/小时（超过1小时）、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "董老师",
+      "instrument_phone": "13603584627",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 8,
+      "name": "纳米颗粒分析仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院305室",
+      "point": [
+        112.593278,
+        37.805969
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200元/标本、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "董老师",
+      "instrument_phone": "13603584627",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 9,
+      "name": "蔡司多通道激光光谱倒置成像显微镜",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院401室",
+      "point": [
+        112.593277,
+        37.80597
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "图像扫描200元/小时 、图像分析200元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "赵老师",
+      "instrument_phone": "13994212631",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 10,
+      "name": "蔡司电动荧光正置成像显微镜",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院402室",
+      "point": [
+        112.593276,
+        37.805971
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "图像扫描100元/小时、图像分析100元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "赵老师",
+      "instrument_phone": "13994212631",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 11,
+      "name": "荧光定量PCR仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院308室",
+      "point": [
+        112.593275,
+        37.805972
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "100元/板 、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "崔老师",
+      "instrument_phone": "15525471113",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 12,
+      "name": "双色近红外激光成像系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院309室",
+      "point": [
+        112.593274,
+        37.805973
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "崔老师",
+      "instrument_phone": "15525471113",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 13,
+      "name": "微滴式数字PCR仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院102室",
+      "point": [
+        112.593273,
+        37.805974
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "400元/板、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "崔老师",
+      "instrument_phone": "15525471113",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 14,
+      "name": "DNA分析仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院103室",
+      "point": [
+        112.593272,
+        37.805975
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200元/样 、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "崔老师",
+      "instrument_phone": "15525471113",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 15,
+      "name": "高速离心机",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院104室",
+      "point": [
+        112.593271,
+        37.805976
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "高速离心100/小时，超过1小时按60元/小时、备注：样品最终收费按测试项目内容累加",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "熊老师",
+      "instrument_phone": "15525061869",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 16,
+      "name": "BD流式细胞分析仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院108室",
+      "point": [
+        112.59327,
+        37.805977
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "五色荧光以内（含五色）300元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "叶老师 王老师",
+      "instrument_phone": "13073585249",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 17,
+      "name": "超高速流式细胞分选系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院108室",
+      "point": [
+        112.593269,
+        37.805978
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "包括调试样品时间 1000元/小时 、备注：机器启动第一小时500元",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "叶老师 王老师",
+      "instrument_phone": "2147483647",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 18,
+      "name": "贝克曼库尔特流式细胞分析仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学研究院109室",
+      "point": [
+        112.593268,
+        37.805979
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "120元/小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "叶老师 王老师",
+      "instrument_phone": "13073585249",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 19,
+      "name": "酶热生物分析系统",
+      "instrument_address": "山西省太原市坞城路92号山西大学生物医学院403室",
+      "point": [
+        112.593267,
+        37.80598
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200元/半小时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "孟老师",
+      "instrument_phone": "18636101580",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 20,
+      "name": "高分辨透射电镜",
+      "instrument_address": "山西省太原市坞城路92号山西大学化学化工学院B113对面",
+      "point": [
+        112.593266,
+        37.805981
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "放大倍数在20万倍以下600/样、放大倍数在20万倍以上900/样",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 21,
+      "name": "联想计算服务器集群",
+      "instrument_address": "山西省太原市坞城路92号山西大学商学楼4楼",
+      "point": [
+        112.593265,
+        37.805982
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "1、用户开户时一次性收取管理费1000元、2、计算费采用按点收费，帐户预充值，欠费停帐号(详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 22,
+      "name": "传染病预警防控可视化平台",
+      "instrument_address": "山西省太原市坞城路92号山西大学商学楼4楼",
+      "point": [
+        112.593264,
+        37.805983
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "1. 用户开户时一次性收取管理费1000元、2. 计算费采用按点收费（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 23,
+      "name": "超高液相色谱质谱联用仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学科技楼718室",
+      "point": [
+        112.593263,
+        37.805984
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "UHPLC-PDA(包天)：按天收费：1500元/天、UHPLC-QDA(包天)：（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 24,
+      "name": "原子力显微镜",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.593262,
+        37.805985
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200元/时",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 25,
+      "name": "红外光谱仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.59326,
+        37.805986
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "100元/样",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 26,
+      "name": "在线颗粒录影显微仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.593261,
+        37.805987
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "100/时。",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 27,
+      "name": "等温滴定微量热仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.59325,
+        37.805988
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "200/样，超过三小时，100/小时。",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 28,
+      "name": "电感耦合等离子体质谱",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.59323,
+        37.805989
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "无机元素定量分析/同位素分析 （3个以上元素定性定量分析时（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 29,
+      "name": "X-射线荧光光谱仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.59326,
+        37.80599
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "XRF收费标准：无标样定量分析、熔片法800元/样、压片法 600元/样（详见备注",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 30,
+      "name": "X-射线单晶衍射仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.59324,
+        37.805991
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "测试项目：晶胞参数100/样、数据收集300/样（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 31,
+      "name": "高分辨液质联用仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.593267,
+        37.805992
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "MS（直接质谱分析，不经色谱分离）300.00元/样、 1、已知样品（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 32,
+      "name": "激光扫描共聚焦显微镜",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.593287,
+        37.805993
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "图像扫描 200元/小时、图像分析200元/小时（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    },
+    {
+      "id": 33,
+      "name": "600MHz核磁共振仪",
+      "instrument_address": "山西省太原市坞城路92号山西大学办公3号楼一层",
+      "point": [
+        112.593289,
+        37.805994
+      ],
+      "instrument_category": "仪器设备",
+      "instrument_pay": "项目 600MHz（元/样品） 1H 100（详见备注）",
+      "instrument_prisectorsector": "科学研究和技术服务业",
+      "instrument_auxsectorsector": null,
+      "instrument_contact": "NULL",
+      "instrument_phone": "03517212621",
+      "instrument_reuse": null,
+      "instrument_remark": null
+    }
+  ]
+}

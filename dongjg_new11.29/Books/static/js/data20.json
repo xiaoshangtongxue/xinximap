@@ -1,0 +1,47 @@
+[
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1105, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 71, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 2, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1285, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2020
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 54, 
+        "ZhuCeShiJian": 2020
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2020
+    }
+]

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            color: #292926;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+ 
+        .top-nav {
+            font-size: 16px;
+            font-weight: bold;
+            list-style: none;
+            overflow: auto;
+        }
+ 
+        .top-nav li {
+            float: left;
+        }
+ 
+        /* 二级菜单 */
+        .top-nav li ul {
+            display: none;
+            /* 去圆点 */
+            list-style: none;
+            padding: 0px;
+        }
+ 
+        .top-nav li a:hover {
+            background-color: red;
+        }
+ 
+        .top-nav li:hover ul {
+            display: block;
+            /* 为了竖向显示 定义一个宽度 */
+            width: 80px;
+        }
+ 
+        /* 三级菜单 */
+        .top-nav li:hover ul li ul {
+            display: none;
+ 
+        }
+ 
+        /* 鼠标移动到二级菜单时 三级菜单显示 */
+        .top-nav li ul li:hover ul {
+            display: block;
+            top: 0px;
+            left: 80px;
+        }
+ 
+        .top-nav li a {
+            line-height: 20px;
+            text-decoration: none;
+            background: #DDDDDD;
+            color: #666666;
+            display: block;
+            width: 80px;
+            text-align:center
+        }
+    </style>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+      
+    }
+    #top1{
+      margin-top: 90px;
+     
+    }
+    li{
+        list-style-type: none;
+    }
+    #top2{
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #f2f2f2;
+        
+    }
+    #top2 li{
+        width: 60px;
+        float: left;
+    }
+    #top2 li.current{
+        background: rgb(204, 201, 201);
+      
+    }
+    #bottom{
+        width: 300px;
+        height: 300px;
+        background: rgb(238, 235, 235);
+        position: absolute;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+     
+     
+    }
+    #bottom li{
+        position: absolute;
+        left: 2px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding-left: 15px;
+        box-sizing: border-box;
+        display: none;
+        color:gray;
+    }
+    #bottom li.current{
+        display: block;
+        color:gray;
+        font-size: 20px;
+    }
+    </style>
+
+    <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=a6dfa9ee329e5f6f5dd8020c68eec042"></script>
+<script type="text/javascript" src="dist/bundle-01.js"></script>
+</style>
+    <link rel="stylesheet" type="text/css" href="assets/style/green.css">
+</head>
+
+
+<body onload="load()">
+
+    <div class="search">
+     <img src="assets/img/home.svg" >
+        <h1 style="font-size:25px;margin-left:10px;"> 成果地图 </h1>
+        <div  id="my" style="margin:0; padding:0;">
+            <select style="width: 90px; font-size: 16px;
+            height: 30px;"id="yjjx" onChange="document.getElementById('myinput').value=this.options[this.selectedIndex].text"; >
+                <option value="1">people=</option>
+                <option value="2">position=</option>
+                <option value="3">unit=</option>
+                <option value="4">_compeople=</option>
+            
+            </select>
+            <input style="width: 200px; height: 35px;font-size:20px ;margin-left:90px;"name="mytext" type="text" id="myinput"  size="10">
+        </div>
+        <button class="round_button" id='search'>搜索</button>
+        <button class="round_button" id='cansole'>取消</button>
+        </label>
+          <a style="margin-top:12px;position:absolute;margin-left:1200px" href="D:\lesson\text\company\demo\demo-company.html">
+            <img  src="assets/img/marker.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1190px" href="D:\lesson\text\company\demo\demo-company.html">
+            <img  src="assets/img/marker1.svg"> 
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1230px" href="D:\lesson\text\company\demo\demo-company.html">
+            <img  src="assets/img/marker2.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1270px" href="D:\lesson\text\company\demo\demo-company.html">
+            <img  src="assets/img/marker3.svg">
+         </a>
+          <a style="margin-top:12px;position:absolute;margin-left:1310px" href="D:\lesson\text\company\demo\demo-company.html">
+            <img  src="assets/img/marker4.svg">
+         </a>
+
+
+</div>
+<div id="top"style="position:absolute; top: 10px; left: 10px; z-index: 30;">
+    <ul class="top-nav" class=menu>
+                 <li><a class="yongyin" href="D:\lesson\text\company\demo\demo-company.html">企业地图</a>                   
+                 </li>
+              
+
+                  <li><a class="yongyin" href="D:\lesson\text\company\demo\demo-talent.html">人才地图</a> 
+                 </li>
+
+                 <li><a class="yongyin" href="#">成果地图</a>
+                     
+                </li>
+                <li><a class="yongyin" href="D:\lesson\text\company\demo\demo-instrument.html">仪器地图</a>
+                    
+                </li>
+                <li><a class="yongyin" href="D:\lesson\text\company\demo\demo-projection.html">项目地图</a>
+                   
+                </li>
+    </ul>
+</div>
+
+<div id="top1"style="position:absolute;z-index: 50;">
+    <ul  id="top2" >
+        <li class="current">企业</li>
+        <li>人才</li>
+        <li>仪器</li>
+        <li>项目</li>
+        <li>成果</li>
+    </ul>
+    <ul id="bottom">
+
+        
+    </ul>
+</div>
+<div id="foo" style="width:100%; height:100%;position: absolute; z-index: 2;"></div>
+<div id="amap" style="width:100%; height:100%;position:absolute; z-index: 1; border: 1px solid #000; "></div>
+        
+</body>
+</html>

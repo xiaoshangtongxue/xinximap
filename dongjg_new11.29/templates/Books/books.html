@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Show Books</title>
+</head>
+
+<body>
+    <h1>图书信息如下：</h1>
+    <ul>
+        {{% for i in row2 %} {% comment %}
+        <li>{{ i.{1} }}</li> {% endcomment %}
+        <h2>{{ i}}</h2>
+        {% comment %}
+        <li>{{ i.(1) }}</li> {% endcomment %} {% endfor %}}
+    </ul>
+</body>
+
+</html>

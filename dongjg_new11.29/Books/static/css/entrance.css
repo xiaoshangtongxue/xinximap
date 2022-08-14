@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: electronicFont;
+    src: url(../font/DS-DIGIT.TTF);
+}
+
+body {
+    background: url(../images/bg.jpg);
+    line-height: 2.3;
+}
+
+header {
+    position: relative;
+    height: 3rem;
+    background: url(../images/head_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+header h1 {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    line-height: 3rem;
+}
+
+header .show-time {
+    position: absolute;
+    top: 0;
+    right: 0.25rem;
+    line-height: 2.5rem;
+    color: rgba(235, 119, 119, 0.7);
+    font-size: 0.3rem;
+}
+.title_img{
+    margin-left:50px;margin-top:-165px;width:100px;height:100px;position:absolute;
+    border-radius: 50px;
+}
+
+.mainbox {
+    min-width: 1024px;
+    max-width: 1920px;
+    padding: 0.1rem 0.125rem 0;
+    display: flex;
+    
+  
+}
+
+.mainbox .column {
+    flex: 5;
+}
+
+
+/* .mainbox {
+    display: flex;
+    min-width: 1024px;
+    max-height: 1920px;
+    margin: 0 auto;
+    padding: 0.125rem 0.125rem 0;
+}
+
+.mainbox .column {
+    flex: 2;
+    overflow: hidden;
+    text-align: center;
+    background-color: #2a3388;
+} */
+
+.mainbox .column li {
+    float: left;
+    padding: 5px;
+    width: 50px;
+    color: rgb(10, 233, 10);
+    list-style: none;
+    border-left: 1px solid #ce0e47;
+    cursor: pointer;
+}
+
+.mainbox .column li:hover,
+.selected {
+    background-color: #cbce0cd7;
+    border-left: 1px solid #ca155a;
+}
+
+.mainbox .column li a {
+    height: 0.6rem;
+    color: #fff;
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+.mainbox .column:nth-child(1) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+}
+
+.mainbox .column:nth-child(2) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+}
+
+.mainbox .column:nth-child(3) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+}
+
+.mainbox .column:nth-child(4) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+}
+
+.mainbox .column:nth-child(5) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+}
+
+.mainbox .panel {
+    position: relative;
+    height: 6rem;
+    padding: 0 0.1875rem 0.5rem;
+    margin-bottom: 0.1875rem;
+    border: 1px solid rgba(25, 186, 139, 0.17);
+    background: url(../images/line.png) rgba(255, 255, 255, 0.03);
+}
+.mainbox .panel1 {
+    position: relative;
+    height: 4rem;
+    padding: 0 0.1875rem 0.5rem;
+    margin-bottom: 0.1875rem;
+    border: 1px solid rgba(25, 186, 139, 0.17);
+    background: url(../images/line.png) rgba(255, 255, 255, 0.03);
+}
+
+.mainbox .panel::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #02a6b5;
+    border-top: 2px solid #02a6b5;
+    content: '';
+}
+
+.mainbox .panel::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #02a6b5;
+    border-top: 2px solid #02a6b5;
+    content: '';
+}
+
+.mainbox .panel .panel-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mainbox .panel .panel-footer::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #02a6b5;
+    border-bottom: 2px solid #02a6b5;
+    content: '';
+}
+
+.mainbox .panel .panel-footer::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #02a6b5;
+    border-bottom: 2px solid #02a6b5;
+    content: '';
+}
+
+.mainbox .panel h2 {
+    height: 0.6rem;
+    color: rgb(223, 9, 9);
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+.title{
+    height: 0.6rem;
+    color: rgb(223, 9, 9);
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+
+}
+
+.mainbox .panel h2 a {
+   color:white;
+    text-decoration: none;
+    margin: 0 0.125rem;
+}
+.mainbox .panel h2 a:hover{
+ color: rgb(14, 199, 174);
+}
+
+.mainbox .panel h2 .a-active {
+    color: #fff;
+  
+}
+
+.mainbox .panel .chart {
+    height: 3rem;
+}
+
+
+/* 约束屏幕尺寸 */
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 42px !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 80px !important;
+    }
+}

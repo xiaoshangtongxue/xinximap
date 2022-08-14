@@ -1,0 +1,497 @@
+[
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1964
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1964
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1964
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1988
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1988
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1988
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1989
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1989
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1989
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1991
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1991
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1991
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1992
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1992
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1992
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1993
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 2, 
+        "ZhuCeShiJian": 1993
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1993
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1994
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 1994
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1994
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1995
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1995
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1995
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1996
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 8, 
+        "ZhuCeShiJian": 1996
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1996
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1997
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 6, 
+        "ZhuCeShiJian": 1997
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1997
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 1998
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 13, 
+        "ZhuCeShiJian": 1998
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 4, 
+        "ZhuCeShiJian": 1998
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 1999
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 21, 
+        "ZhuCeShiJian": 1999
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 4, 
+        "ZhuCeShiJian": 1999
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2000
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 12, 
+        "ZhuCeShiJian": 2000
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2000
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2001
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 19, 
+        "ZhuCeShiJian": 2001
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 5, 
+        "ZhuCeShiJian": 2001
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2002
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 17, 
+        "ZhuCeShiJian": 2002
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2002
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2003
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 36, 
+        "ZhuCeShiJian": 2003
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 6, 
+        "ZhuCeShiJian": 2003
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2004
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 33, 
+        "ZhuCeShiJian": 2004
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2004
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2005
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 45, 
+        "ZhuCeShiJian": 2005
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 7, 
+        "ZhuCeShiJian": 2005
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2006
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 54, 
+        "ZhuCeShiJian": 2006
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2006
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2007
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 51, 
+        "ZhuCeShiJian": 2007
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 9, 
+        "ZhuCeShiJian": 2007
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2008
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 49, 
+        "ZhuCeShiJian": 2008
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 11, 
+        "ZhuCeShiJian": 2008
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2009
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 64, 
+        "ZhuCeShiJian": 2009
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 6, 
+        "ZhuCeShiJian": 2009
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2010
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 95, 
+        "ZhuCeShiJian": 2010
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 17, 
+        "ZhuCeShiJian": 2010
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 4, 
+        "ZhuCeShiJian": 2011
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 103, 
+        "ZhuCeShiJian": 2011
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 31, 
+        "ZhuCeShiJian": 2011
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2012
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 141, 
+        "ZhuCeShiJian": 2012
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 25, 
+        "ZhuCeShiJian": 2012
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2013
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 194, 
+        "ZhuCeShiJian": 2013
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 30, 
+        "ZhuCeShiJian": 2013
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 3, 
+        "ZhuCeShiJian": 2014
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 339, 
+        "ZhuCeShiJian": 2014
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 54, 
+        "ZhuCeShiJian": 2014
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2015
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 371, 
+        "ZhuCeShiJian": 2015
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 40, 
+        "ZhuCeShiJian": 2015
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2016
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 647, 
+        "ZhuCeShiJian": 2016
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 92, 
+        "ZhuCeShiJian": 2016
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 1, 
+        "ZhuCeShiJian": 2017
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 801, 
+        "ZhuCeShiJian": 2017
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 107, 
+        "ZhuCeShiJian": 2017
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1105, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 71, 
+        "ZhuCeShiJian": 2018
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 2, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 1285, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2019
+    }, 
+    {
+        "QiYeGuiMo": "小微企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2020
+    }, 
+    {
+        "QiYeGuiMo": "科技型中小企业", 
+        "ShuLiang": 54, 
+        "ZhuCeShiJian": 2020
+    }, 
+    {
+        "QiYeGuiMo": "高新技术企业", 
+        "ShuLiang": 0, 
+        "ZhuCeShiJian": 2020
+    }
+]

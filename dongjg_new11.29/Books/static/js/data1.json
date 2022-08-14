@@ -1,0 +1,70 @@
+[
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 2022
+    }, 
+    {
+        "HangYe": "信息传输、软件和信息技术服务业", 
+        "ShuLiang": 1865
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 973
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 512
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 237
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 167
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 115
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 90
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 33
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 29
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 25
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 18
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 8
+    }, 
+    {
+        "HangYe": "住宿和餐饮业", 
+        "ShuLiang": 5
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 4
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 3
+    }, 
+    {
+        "HangYe": "金融业", 
+        "ShuLiang": 3
+    }
+]

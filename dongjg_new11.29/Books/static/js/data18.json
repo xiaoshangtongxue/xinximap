@@ -1,0 +1,377 @@
+[
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "交通运输、仓储和邮政业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 7, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 9, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "信息传输、计算机服务和软件业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 8, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "农、林、牧、渔业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "制造业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "卫生和社会工作", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "居民服务、修理和其他服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 3, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "建筑业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "房地产业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "批发和零售业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "教育", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "文化、体育和娱乐业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "水利、环境和公共设施管理业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 68, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 2, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 14, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "电力、热力、燃气及水生产和供应业", 
+        "ShuLiang": 2, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 89, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 8, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 1, 
+        "YanFaZhuangTai": "验收"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 21, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "科学研究和技术服务业", 
+        "ShuLiang": 5, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "鉴定"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "结题"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评价机构"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "评审"
+    }, 
+    {
+        "HangYe": "租赁和商务服务业", 
+        "ShuLiang": 0, 
+        "YanFaZhuangTai": "验收"
+    }
+]
